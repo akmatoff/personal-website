@@ -6,7 +6,7 @@ function About() {
   return (
     <Section id="about">
       <div className={`${styles["section-inner"]} flex column`}>
-        <div className={styles.container}>
+        <div className={styles.container + ' ' + styles.accent}>
           <h1>Who am I</h1>
         </div>
 
@@ -21,7 +21,7 @@ function About() {
           </p>
         </div>
 
-        <div className={styles.container}>
+        <div className={`${styles.container} ${styles.accent}`}>
           <h1>Some fun facts</h1>
         </div>
 
@@ -39,18 +39,18 @@ function About() {
           </ul>
         </div>
 
-        <div className={styles.container}>
+        <div className={styles.container + ' ' + styles.accent}>
           <h1>Skills</h1>
         </div>
 
         <div className={styles['grid-container']}>
           <div className={styles['grid-container__item']}>HTML</div>
           <div className={styles['grid-container__item']}>CSS</div>
+          <div className={styles['grid-container__item']}>SCSS</div>
           <div className={styles['grid-container__item']}>React</div>
           <div className={styles['grid-container__item']}>Redux</div>
           <div className={styles['grid-container__item']}>Next.js</div>
           <div className={styles['grid-container__item']}>Typescript</div>
-          <div className={styles['grid-container__item']}>SCSS</div>
           <div className={styles['grid-container__item']}>styled-components</div>
         </div>
       </div>

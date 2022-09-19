@@ -13,6 +13,12 @@
   text-align: justify;
   border: 2px solid var(--secondary-color);
   box-shadow: 8px 6px 0 var(--secondary-color);
+  background: var(--primary-color);
+}
+
+.accent {
+  background: var(--accent-color);
+  color: var(--text-color-light);
 }
 
 .container p {

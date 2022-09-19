@@ -1,0 +1,48 @@
+[
+  {
+      "project_id": 1,
+      "project_title": "Boorsound",
+      "project_type": "Desktop App",
+      "description": "An mp3 player for desktop that provides most common features mp3 players require.",
+      "technology": "Electronjs",
+      "repositories": [
+          "https://github.com/boorsoft/boorsound"
+      ]
+  },
+  {
+      "project_id": 2,
+      "project_title": "Pomodoro",
+      "project_type": "Web App",
+      "description": "Be productive and use your time efficiently with a pomodoro",
+      "technology": "React",
+      "app": "https://akmatoff.github.io/pomodoro",
+      "picture": "https://i.ibb.co/ky24vT6/pomodoro.jpg",
+      "repositories": [
+          "https://github.com/akmatoff/pomodoro"
+      ]
+  },
+  {
+      "project_id": 3,
+      "project_title": "Github Repo Viewer",
+      "project_type": "Web App",
+      "description": "View the repositories of a specific github organization",
+      "technology": "React, Redux, Redux-Saga, TypeScript",
+      "app": "https://akmatoff.github.io/github-repo-viewer/",
+      "picture": "https://i.ibb.co/7C1HdB3/github-repo-viewer.jpg",
+      "repositories": [
+          "https://github.com/akmatoff/github-repo-viewer"
+      ]
+  },
+  {
+      "project_id": 4,
+      "project_title": "Savings Calculator",
+      "project_type": "Web App",
+      "description": "A web app for savings calculation. It calculates how much money you save by a specific year and month if you despotit monthly or how much you have to deposit monthly to get the amount you want.",
+      "technology": "React, TypeScript, Redux, Styled Components",
+      "app": "https://akmatoff.github.io/savings-calculator/",
+      "picture": "https://i.ibb.co/vmgTnyJ/savings-calculator.jpg",
+      "repositories": [
+          "https://github.com/akmatoff/savings-calculator"
+      ]
+  }
+]

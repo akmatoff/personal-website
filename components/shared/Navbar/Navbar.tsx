@@ -18,7 +18,7 @@ function Navbar() {
             </Link>
           </div>
           <div className={styles["navbar-element"]}>
-            <Link href="#featured">
+            <Link href="#work">
               <a>WORK</a>
             </Link>
           </div>
