@@ -1,0 +1,27 @@
+.container {
+  width: 320px;
+  height: 80px;
+  padding: 20px;
+  margin: 40px 0;
+  border: 2px solid var(--secondary-color);
+  box-shadow: 8px 6px 0 var(--secondary-color);
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.social-icon {
+  padding: 0;
+  margin: 0;
+  height: 35px;
+  font-size: 34px;
+  color: var(--secondary-color);
+  transition: 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.social-icon:hover {
+  color: var(--accent-color);
+}

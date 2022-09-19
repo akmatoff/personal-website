@@ -18,6 +18,11 @@ function Navbar() {
             </Link>
           </div>
           <div className={styles["navbar-element"]}>
+            <Link href="#featured">
+              <a>WORK</a>
+            </Link>
+          </div>
+          <div className={styles["navbar-element"]}>
             <Link href="#about">
               <a>ABOUT</a>
             </Link>

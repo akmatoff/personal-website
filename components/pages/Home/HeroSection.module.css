@@ -1,22 +1,23 @@
-.hero-heading-text {
-  width: 340px;
+.hero-container {
+  width: 320px;
+  /* min-height: 350px; */
+  padding: 20px;
   border: 2px solid var(--secondary-color);
+  box-shadow: 8px 6px 0 var(--secondary-color);
+}
+
+.hero-heading-text {
   color: var(--secondary-color);
   font-weight: 600;
   font-size: 25px;
   text-transform: uppercase;
-  padding: 15px;
-  display: grid;
-  place-content: center;
-  box-shadow: 2px 3px 0 var(--secondary-color);
 }
 
 .hero-body-text {
-  margin: 30px 0;
+  margin-top: 10px;
   color: var(--text-color);
-  width: 500px;
   text-align: justify;
-  line-height: 22px;
+  line-height: 25px;
   font-size: 20px;
   font-weight: 400;
 }
